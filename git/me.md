@@ -37,5 +37,15 @@ username.github.io/repo-name
 
 work flow
 
-- centeralize
+- centralized
 - feature branches
+
+### pull requests And Origin rules
+
+### Rebase
+
+it has 2 purpose
+
+git rebase master
+
+git rebase --abort
