@@ -46,6 +46,40 @@ work flow
 
 it has 2 purpose
 
+A) merge
+B) rewrite history
+
 git rebase master
 
 git rebase --abort
+
+---
+
+git rebase -i HEAD~4
+
+pick
+reword
+edit
+fixup
+commit
+drop
+
+---
+
+# tags
+
+git tag
+git tag -l
+git tag -l "17"
+git tag -l "17*"
+git tag "*beta\*"
+
+git checkout v1.0.5
+
+<!-- normal tag  -->
+
+git tag "tagname"
+
+<!--  anotated tag  -->
+
+git tag -a "tag name "
