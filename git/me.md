@@ -83,3 +83,5 @@ git tag "tagname"
 <!--  anotated tag  -->
 
 git tag -a "tag name "
+
+https://dev.to/vinothmohan/git-an-overview-at-high-level-2ckk
